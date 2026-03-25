@@ -1,5 +1,5 @@
 # Points
-**Only for Ashita v4; Made to support Retail!**
+**Only for Ashita v4; This fork updated to support HorizonXI private server!**
 
 Enter "/points help" after loading the addon to view available commands
 Various resource point and event tracker; Includes the following
