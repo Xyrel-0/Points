@@ -109,12 +109,13 @@ MessageMatch.NyzulObj = "Objective: (.*)[0|1]";
 MessageMatch.NyzulFloor = "Transfer complete. Welcome to Floor (\\d+).*";
 
 XPChainTimers = T{
-    { lvl=10, maxtime={ 80, 80, 60, 40, 30, 15, }, },
-    { lvl=20, maxtime={ 130, 130, 110, 80, 60, 25, }, },
-    { lvl=30, maxtime={ 160, 150, 120, 90, 60, 30, }, },
-    { lvl=40, maxtime={ 200, 200, 170, 130, 80, 40, }, },
-    { lvl=50, maxtime={ 290, 290, 230, 170, 110, 50, }, },
-    { lvl=99, maxtime={ 300, 300, 240, 180, 120, 60, }, },
+    { lvl=10, maxtime={ 50, 40, 30, 20, 10, 10, }, },
+    { lvl=20, maxtime={ 100, 80, 60, 40, 20, 20, }, },
+    { lvl=30, maxtime={ 150, 120, 90, 60, 30, 30, }, },
+    { lvl=40, maxtime={ 200, 160, 120, 80, 40, 40, }, },
+    { lvl=50, maxtime={ 250, 200, 150, 100, 50, 50, }, },
+    { lvl=60, maxtime={ 300, 240, 180, 120, 90, 60, }, },
+    { lvl=75, maxtime={ 360, 300, 240, 165, 105, 60, }, },
 }
 
 AvailableTokens = T{
